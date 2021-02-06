@@ -1,0 +1,91 @@
+body {
+  line-height: normal;
+  background: #e6ecea;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'helvetica neue', tahoma, 'hiragino sans gb', stheiti, 'wenquanyi micro hei', '微软雅黑', '宋体', sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #535353;
+}
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+a:active {
+  outline: 0;
+}
+img {
+  border: 0;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ellipsis-clamp-1,
+.ellipsis-clamp-2,
+.ellipsis-clamp-3,
+.ellipsis-clamp-4,
+.ellipsis-clamp-5 {
+  overflow: hidden;
+  display: -webkit-box;
+  white-space: normal;
+  -webkit-box-orient: vertical;
+}
+.ellipsis-clamp-1 {
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+}
+.ellipsis-clamp-2 {
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+}
+.ellipsis-clamp-3 {
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+.ellipsis-clamp-4 {
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+}
+.ellipsis-clamp-5 {
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
